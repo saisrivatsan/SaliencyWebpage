@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://getbootstrap.com/examples/theme/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Saliency Objectness</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./Dependencies/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./Dependencies/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Dependencies/theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./Dependencies/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+	    <div class="container theme-showcase" role="main">
+		   	<center>
+		    	<h1>Salient Object Detection via Objectness Proposals</h1>
+
+		    	<div class="row">
+		    		<div class="col-md-2"></div>
+		        	<div class="col-md-4">
+		        		<h4>
+		        			Sai Srivatsa R<br>
+		        		</h4>
+		        		<h5>
+		        			Department of Electrical Engineering<br>
+		        			Indian Institute of Technology<br>
+		        			Kharagpur
+		        		</h5>
+		        	</div>
+
+		        	<div class="col-md-4">
+		        		<h4>
+		        			R Venkatesh Babu<br>
+		        		</h4>
+		        		<h5>Video Analytics Lab, SERC<br>
+		        			Indian Institute of Sciences<br>
+		        			Bangalore
+		        		</h5>
+		        		
+		        	</div><div class="col-md-2"></div>
+		      	</div>
+		   	</center>
+	    
+		<div class="row">
+		    <div class="col-md-2"></div>
+		    <div class="col-md-8">
+	    	<p align="center"><img src="./Figures/intro.png" alt="" width="600"/></p>
+			<p align="center"> Top row to bottom: Input images, Results of our saliency algorithm, Ground truth labeling.</p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	    <div class="page-header">
+        	<h3>Abstract</h3>
+        </div>
+      	<p>
+      		Salient object detection has become an important task in many image processing applications. The existing approaches exploit background prior and contrast prior to attain state of the art results. In this paper, instead of using background cues, we estimate the foreground regions in an image using objectness proposals and utilize it to obtain smooth and accurate saliency maps. We propose a novel saliency measure called ‘foreground connectivity’ which determines how tightly a pixel or a region is connected to the estimated foreground. We use the values assigned by this measure as foreground weights and integrate these in an optimization framework to obtain the final saliency maps. We extensively evaluate the proposed approach on two benchmark databases and demonstrate that the results obtained are better than the existing state of the art approaches.
+      	</p>
+
+      	
+
+      	<div class="page-header">
+        	<h3>Overview of our approach</h3>
+        </div>
+    	<p align="center"><img src="./Figures/pipeline.png" alt="" width="800"/></p>
+		<p align="center"> Top row to bottom: Input images, Results of our saliency algorithm, Ground truth labeling.</p>
+
+		</div>
+
+
+
+
+    
+
+    
+    </body>
+</html>
+
+
+
+     
