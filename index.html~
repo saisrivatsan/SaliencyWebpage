@@ -34,27 +34,32 @@
 <body role="document">
 	<div class="container theme-showcase" role="main">
 		<center>
-			<h1>Salient Object Detection via Objectness Measure</h1>
+		
+			<div class="page-header">
+  				<h1>Salient Object Detection via Objectness Measure</h1>
+			
+			
 
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-4">
-					<h4>Sai Srivatsa R<br></h4>
-					<h5>Department of Electrical Engineering<br>Indian Institute of Technology<br>Kharagpur</h5>
-				</div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-4">
+						<h4><a href="http://saisrivatsan.github.io">Sai Srivatsa R</a><br></h4>
+						<h5>Department of Electrical Engineering<br>Indian Institute of Technology<br>Kharagpur</h5>
+					</div>
 
-				<div class="col-md-4">
-					<h4>R Venkatesh Babu<br></h4>
-					<h5>Video Analytics Lab, SERC<br>Indian Institute of Sciences<br>Bangalore</h5>
+					<div class="col-md-4">
+						<h4><a href="http://www.serc.iisc.ernet.in/~venky/">R Venkatesh Babu</a><br></h4>
+						<h5>Video Analytics Lab, SERC<br>Indian Institute of Sciences<br>Bangalore</h5>
+					</div>
+					<div class="col-md-2"></div>
 				</div>
-				<div class="col-md-2"></div>
 			</div>
 		</center>	
 	    
 		<div class="row">
 		    <div class="col-md-2"></div>
 		    <div class="col-md-8">
-	    		<p align="center"><img src="./Figures/intro.png" alt="" width="600"/></p>
+	    		<p align="center"><img src="./Figures/intro.jpg" alt="" width="600"/></p>
 				<p align="center">Top row to bottom: Input images, Results of our saliency algorithm, Ground truth labeling.</p>
 			</div>
 			<div class="col-md-2"></div>
@@ -77,10 +82,10 @@
         		Sai Srivatsa R, R Venkatesh Babu. "<b>Salient Object Detection via Objectness Measure</b>". <br>
         		IEEE International Conference on Image Processing (IEEE ICIP), Quebec city, Canada 2015.<br>
         		[ <a href="./Documents/paper.pdf">Paper</a> ] 
-        		[ <a href="./Documents/bibtex.txt">BibTeX</a> ] 
+        		[ <a href="./Documents/bibtex.txt">BibTeX</a> ]
+        		[ <a href="./Documents/poster.pdf">Poster</a> ] 
         		<br> 
-        		Coming Soon:
-        		[ <a href=".">Poster</a> ]        		
+        		Coming Soon:        		
         		[ <a href=".">Code</a> ] 
         		[ <a href=".">Data</a> ]
         	</p>
