@@ -85,9 +85,6 @@
         		[ <a href="./Documents/bibtex.txt">BibTeX</a> ]
         		[ <a href="./Documents/poster.pdf">Poster</a> ] 
         		<br> 
-        		Coming Soon:        		
-        		[ <a href=".">Code</a> ] 
-        		[ <a href=".">Data</a> ]
         	</p>
         </center>
         </div>
@@ -118,7 +115,7 @@
         </div>
 
         <p align="center"><img src="./Figures/vis_res.jpg" alt="" width="700"/></p>
-		<p align="center"> Visual Comparison of our Saliency Map with other state-of-the-art methods.Our approach 
+		<p align="center"> <b>Visual Comparison</b> of our Saliency Map with other state-of-the-art methods.Our approach 
 		produces smoother,uniform and accurate Saliency Maps</p>
 		<br><br>
 
@@ -126,12 +123,12 @@
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-5">
-				<p align="center"><img src="./Figures/MSRA_PRw.png" alt="" width="500" height="300"/></p>
+				<p align="center"><img src="./Figures/MSRA_PR.png" alt="" width="400" height="400"/></p>
 				<p align="center"> Comparison of Precision-Recall curves of<br> various approaches on MSRA Dataset</p>
 			</div>
 
 			<div class="col-md-5">
-				<p align="center"><img src="./Figures/CSSD_PRw.png" alt="" width="500" height="300" /></p>
+				<p align="center"><img src="./Figures/CSSD_PR.png" alt="" width="400" height="400" /></p>
 				<p align="center"> Comparison of Precision-Recall curves of<br>various approaches on CSSD Dataset</p>
 			</div>
 			<div class="col-md-1"></div>
